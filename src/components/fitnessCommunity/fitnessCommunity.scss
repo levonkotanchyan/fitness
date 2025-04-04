@@ -1,0 +1,59 @@
+.fitnessCommunity {
+  display: flex;
+  gap: 24px;
+  margin: 80px 100px;
+  overflow: hidden;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+  @media screen and (max-width: 576px) {
+    flex-direction: column;
+    margin: 0px;
+  }
+  .fitnessCommunityLeft,
+  .fitnessCommunityRight {
+    width: 50%;
+    @media screen and (max-width: 576px) {
+      width: 370px;
+      align-self: center;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+  }
+  .fitnessCommunityLeft {
+    text-align: justify;
+  }
+  .supportBox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    box-sizing: border-box;
+    padding-top: 16px;
+    justify-content: center;
+    .support {
+      width: calc(50% - 24px);
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      background-color: #1d1d1d;
+      border-radius: 8px;
+      padding: 12px;
+      .supportTitle {
+        text-align: center;
+      }
+    }
+  }
+  .fitComm {
+    @media screen and (max-width: 576px) {
+      flex-direction: column;
+      display: flex;
+      align-items: center;
+      gap: 0;
+    }
+  }
+  .infoTrain{
+    padding: 0px;
+    @media screen and (max-width: 576px){
+      padding: 8px;
+    }
+  }
+}

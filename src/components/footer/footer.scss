@@ -1,0 +1,41 @@
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  padding: 20px 40px 40px 40px;
+  @media screen and (max-width: 576px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .footerColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    &:first-child {
+      align-items: flex-start;
+    }
+    img {
+      height: 55px;
+      object-fit: contain;
+    }
+    p {
+      text-align: justify;
+      max-width: 515px;
+    }
+    div {
+      display: flex;
+      gap: 5px;
+      img {
+        width: 24px;
+        height: 24px;
+        object-fit: contain;
+      }
+    }
+  }
+  .socialMedia {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+}

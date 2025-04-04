@@ -1,0 +1,32 @@
+.trainPlan{
+   color: #fff; 
+   border-width: 3px;
+   border-style: solid;
+   border-radius: 8px;
+   display: flex;
+   flex-direction: column;
+   width: 350px;
+   padding: 24px;
+   box-sizing: border-box;
+   gap: 10px;
+   justify-content: space-between;
+
+}
+.Prise{
+    font-size:28px;
+}
+.Prise2{
+    font-size: 14px;
+    color:#8B8B8B;
+}
+.Plans{
+    border-radius: 30px;
+    height: 44px;
+    color: #fff
+}
+.trainPlanContent{
+    @media screen and (max-width: 576px){
+        flex-direction: column;
+        gap: 20px;
+    }
+}

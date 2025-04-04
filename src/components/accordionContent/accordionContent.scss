@@ -1,0 +1,55 @@
+.App {
+  font-family: sans-serif;
+  padding-top: 1rem;
+  color: #ffffff;
+  border: 8px;
+}
+
+.chevron-down {
+  margin-left: auto;
+  transition: transform 0.25s cubic-bezier(0, 0, 0, 1);
+}
+
+.szh-accordion {
+  margin: 0 100px 100px 100px;
+  border-bottom: 1px solid #CD4E17;
+  @media screen and (max-width: 576px){
+    margin: 0 40px;
+  }
+  &__item {
+    border: 1px solid #CD4E17;
+    border-radius: 12px;
+
+    &-btn {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      width: 100%;
+      padding: 1rem;
+      font-size: 1rem;
+      font-weight: 400;
+      text-align: left;
+      color: #ffffff;
+      background-color: transparent;
+
+      &:hover {
+        background-color: #ff000030;
+      }
+    }
+
+    &-content {
+      transition: height 0.25s cubic-bezier(0, 0, 0, 1);
+    }
+
+    &-panel {
+      padding: 1rem;
+    }
+
+    &--expanded {
+      border: 2px solid #ff0000a6;
+      .chevron-down {
+        transform: rotate(180deg);
+      }
+    }
+  }
+}

@@ -1,0 +1,102 @@
+.fitnessTools {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin: 80px 100px;
+  overflow: hidden;
+  padding-bottom: 20px;
+  @media screen and (max-width: 576px){
+    margin: 20px 40px;
+    align-self: center;
+  }
+  .react-multi-carousel-list {
+    overflow: visible;
+  }
+  .react-multi-carousel-item{
+    gap: 24px;
+    @media screen and (max-width: 576px) {
+      width: 300px;
+      height: 300px;
+      justify-content: center;
+    }
+  }
+  .meet, .blog{
+    @media screen and (max-width: 576px) {
+      width: 400px;
+      height: 400px;
+      justify-content: center;
+      object-fit: cover;
+    }
+  }
+  .carouselItem {
+    height: 300px;
+    background-size: cover;
+  }
+  .carouselItem2 {
+    height: 400px;
+    background-size: cover;
+  }
+  .react-multi-carousel-dot {
+    button {
+      background-color: #262626;
+    }
+  }
+  .react-multi-carousel-dot--active {
+    button {
+      background-color: #d90a14;
+    }
+  }
+  .custom-dot-list-style {
+    bottom: -20px;
+  }
+  .react-multiple-carousel__arrow{
+    border: 1px solid white;
+    background-color: transparent;
+  }
+  .react-multiple-carousel__arrow--right {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    top: -100px;
+  }
+  .react-multiple-carousel__arrow--left {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    top: -100px;
+    right: 100px;
+    left: unset;
+  }
+  .react-multiple-carousel__arrow--left::before{
+    background-image: url('../../images/arrows/left.png');
+    background-size: 25px;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    content: "";
+    position: absolute;
+    inset: 8px;
+  }
+  .react-multiple-carousel__arrow--right::before{
+    background-image: url('../../images/arrows/right.png');
+    background-size: 25px;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    content: "";
+    position: absolute;
+    inset: 8px;
+  }
+  .slide3big{
+  }
+  .slide3small{
+    display: flex;
+    flex-direction: column;
+  }
+}
+.blogMobile{
+  width: 100%;
+  object-fit: contain;
+  box-sizing: border-box;
+  padding: 20px;
+}

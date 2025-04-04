@@ -1,0 +1,9 @@
+.wordDescription{
+    color: white;
+    display: flex;
+    @media screen and (max-width: 576px){
+        display: flex;
+       flex-wrap: wrap;
+       align-items: center;
+    }
+}

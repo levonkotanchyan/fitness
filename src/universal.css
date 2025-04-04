@@ -1,0 +1,112 @@
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.justify-around{
+  justify-content: space-around;
+}
+
+.justify-between{
+  justify-content: space-between;
+}
+.justify-center{
+  justify-content: center;
+}
+
+.col-gap-1 {
+  column-gap: 1rem;
+}
+
+.font-12 {
+  font-size: 12px;
+}
+.font-14 {
+  font-size: 14px;
+}
+.font-16 {
+  font-size: 16px;
+}
+.font-18 {
+  font-size: 18px;
+}
+.font-20{
+  font-size: 20px;
+}
+.font-32 {
+  font-size: 32px;
+}
+.font-36 {
+  font-size: 36px;
+}
+
+.text-red {
+  color: red;
+}
+
+.text-dark-red {
+  color: #C50912;
+}
+
+.text-orange {
+  color: #cd4e17;
+}
+
+.text-gray {
+  color: gray;
+}
+.text-dark-orange {
+  color: #bb4715;
+}
+
+.w-25-p {
+  width: 25%;
+}
+.text-white {
+  color: white;
+}
+.gap-24 {
+  gap: 24px;
+}
+.p-15 {
+  padding: 15px;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.paytone-one-regular {
+  font-family: "Paytone One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.align-justify{
+  text-align: justify;
+}
+
+.button-red{
+  background-color: #D90A14;
+}
+.button-orange{
+  background-color: #CD4E17;
+}
+.border-red{
+  border-color: #D90A14;
+}
+.border-orange{
+  border-color: #CD4E17;
+}

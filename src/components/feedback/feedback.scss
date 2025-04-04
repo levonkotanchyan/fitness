@@ -1,0 +1,41 @@
+.OurTrainer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    @media screen and (max-width: 576px){
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-self: center;
+    }
+  .feedbackBlock {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: rgba(255, 0, 0, 0.3);
+    width: 620px;
+    height: auto;
+    border-radius: 12px;
+    padding: 1rem;
+    box-sizing: border-box;
+    @media screen and (max-width: 576px){
+      justify-content: center;
+      width:auto;
+      margin: 20px;
+    }
+  }
+  .fitMan{
+    @media screen and (max-width: 576px){
+     align-self: center;
+     }
+  }
+  .trainerJosh{
+    @media screen and (max-width: 576px){
+      
+     }
+  }
+  .trainerEdvard{
+    @media screen and (max-width: 576px){
+     }
+  }
+}
